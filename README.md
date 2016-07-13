@@ -53,7 +53,7 @@ Create an html file (index.html) -
 </html>
 ```
 
-Git it - (Untracked files)
+#### Git it 
 
 `git status` (use whenever in doubt about the status of the files)
 
