@@ -70,7 +70,9 @@ These are the three git commands that will be used **heavily**. Keep them handy!
 #### Create branches 
 
 `git branch` (List out the available branches)
+
 `git branch <branch_name>` (Why do we need branches? What happens after branching?) 
+
 `git checkout <branch_name>` (Switch branches)
 
 After 'gitting it'.. 
