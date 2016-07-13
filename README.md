@@ -22,7 +22,7 @@
 
 ### Two ways to start - 
 
-1. [Create your own project]()
+1. [Create your own project](#1.creatnigaproject)
 2. [Contribute to a project]()
 
 #### 1. Creating a project
@@ -39,7 +39,8 @@ or
 
 Create an html file (index.html) -
  
-`<html>
+```
+<html>
 <head>
 <title>
 	First contribution!
@@ -49,7 +50,8 @@ Create an html file (index.html) -
 	<h1> C-Cube </h1>
 	<h2>Learn.Join.Compete.</h2>
 </body>
-</html>`
+</html>
+```
 
 Git it - (Untracked files)
 
@@ -81,10 +83,28 @@ And then push master to origin.
 
 What is **gitignore** and why is it important?
 
+#### Commit Collision
+
+```
+<<<<<<< HEAD
+Code that you have written
+=======
+Your friend's code
+>>>>>>> 90e9cff27a42949307694d35d5ea5138e2d11a1a
+```
+
 #### 2. Contributing to a project
 `git clone <repo_url.git>`
 
+Make a new branch (good practice)
 
+Make awesome changes
+
+Add.Commit.Push.
+
+Create a pull request.
+
+Wait.Review.Push.Enjoy!
 
 
 ## **Terminologies:**
