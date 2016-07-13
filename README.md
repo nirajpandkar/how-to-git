@@ -22,7 +22,7 @@
 
 ### Two ways to start - 
 
-1. [Create your own project]()
+1. [Create your own project](#1.creatnigaproject)
 2. [Contribute to a project]()
 
 #### 1. Creating a project
@@ -39,7 +39,8 @@ or
 
 Create an html file (index.html) -
  
-`<html>
+```
+<html>
 <head>
 <title>
 	First contribution!
@@ -49,7 +50,8 @@ Create an html file (index.html) -
 	<h1> C-Cube </h1>
 	<h2>Learn.Join.Compete.</h2>
 </body>
-</html>`
+</html>
+```
 
 Git it - (Untracked files)
 
@@ -61,15 +63,19 @@ Git it - (Untracked files)
 
 `git push origin master` (Push master branch to origin)
 
-These are the four git commands that will be used **heavily**. Keep them handy!
+**Add.Commit.Push.**
 
-Create branches - 
+These are the three git commands that will be used **heavily**. Keep them handy!
+
+#### Create branches 
 
 `git branch` (List out the available branches)
 `git branch <branch_name>` (Why do we need branches? What happens after branching?) 
 `git checkout <branch_name>` (Switch branches)
 
-After 'gitting it' merge the branches - 
+After 'gitting it'.. 
+
+#### Merge the branches  
 
 1. Github (Compare and Pull Request) 
 2. Command line -
@@ -81,11 +87,64 @@ And then push master to origin.
 
 What is **gitignore** and why is it important?
 
+#### Resolving Conflicts
+
+```
+<<<<<<< HEAD
+Code that you have written
+=======
+Your friend's code
+>>>>>>> 90e9cff27a42949307694d35d5ea5138e2d11a1a
+```
+
 #### 2. Contributing to a project
 `git clone <repo_url.git>`
 
+Make a new branch (good practice)
 
+Make awesome changes
 
+**Add.Commit.Push.**
+
+Create a pull request.
+
+Wait.Review.Push.Enjoy!
+
+## How to rebase?
+
+[Reference link](https://github.com/edx/edx-platform/wiki/How-to-Rebase-a-Pull-Request)
+### What you've done till now
+```
+git clone https://github.com/my-username/how-to-git.git
+cd how-to-git
+git checkout -b my-branch
+```
+
+### Add the official repo as a remote
+
+`git remote add howtogit https://github.com/nirajpandkar/how-to-git.git`
+
+###Check the new added remote 
+`git remote -v`
+
+###Fetch the latest version of master
+`git fetch howtogit`
+
+#### Squash changes
+#### Reword commits
+
+### Perform the rebase finally
+
+git rebase howtogit/master
+
+You may get conflicts. 
+After resolving those conflicts **Add.Commit.**
+
+Wait.. No **Push.**?
+Yes. Here you first `git rebase --continue`
+And then `git push -f origin master`
+
+Your pull request will be updated!! Successfully rebased!
 
 ## **Terminologies:**
 
@@ -106,3 +165,5 @@ track
 branches
 
 gitignore
+
+rebase
