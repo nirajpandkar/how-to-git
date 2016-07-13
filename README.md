@@ -22,8 +22,8 @@
 
 ### Two ways to start - 
 
-1. [Create your own project](#1-.-creating-a-project)
-2. [Contribute to a project](#2-.-contributing-to-a-project)
+1. [Create your own project](#1-creating-a-project)
+2. [Contribute to a project](#2-contributing-to-a-project)
 
 #### 1. Creating a project
 
