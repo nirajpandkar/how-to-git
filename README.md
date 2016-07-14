@@ -8,7 +8,7 @@
 
 `sudo apt-get install git`
 
-### On Windows(7 or later) - https://desktop.github.com/
+### On Windows(7 or later) - https://github.com/git-for-windows/git/releases/
 
 ### Configure :
 
