@@ -2,13 +2,21 @@
 
 ## Installation ([Detailed information](https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04))
 
-### On Linux -
+### Linux -
+#### On a debian based distro -
 
 `sudo apt-get update`
 
 `sudo apt-get install git`
+#### On Fedora -
 
-### On Windows(7 or later) - https://github.com/git-for-windows/git/releases/
+`sudo yum install git`
+
+#### On several other Unix flavours - 
+
+[https://git-scm.com/download/linux](https://git-scm.com/download/linux)
+
+### Windows(7 or later) - https://github.com/git-for-windows/git/releases/
 
 ### Configure :
 
