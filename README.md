@@ -177,3 +177,14 @@ branches
 gitignore
 
 rebase
+
+## Reference Links
+
+#### Understanding Git(in depth) - 
+[Git Parable](http://tom.preston-werner.com/2009/05/19/the-git-parable.html)
+
+#### Git Glossary
+[Glossary](https://www.kernel.org/pub/software/scm/git/docs/gitglossary.html)
+
+
+
