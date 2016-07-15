@@ -2,13 +2,21 @@
 
 ## Installation ([Detailed information](https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04))
 
-### On Linux -
+### Linux -
+#### On a debian based distro -
 
 `sudo apt-get update`
 
 `sudo apt-get install git`
+#### On Fedora -
 
-### On Windows(7 or later) - https://desktop.github.com/
+`sudo yum install git`
+
+#### On several other Unix flavours - 
+
+[https://git-scm.com/download/linux](https://git-scm.com/download/linux)
+
+### Windows(7 or later) - https://github.com/git-for-windows/git/releases/
 
 ### Configure :
 
@@ -22,8 +30,8 @@
 
 ### Two ways to start - 
 
-1. [Create your own project](#1.creatnigaproject)
-2. [Contribute to a project]()
+1. [Create your own project](#1-creating-a-project)
+2. [Contribute to a project](#2-contributing-to-a-project)
 
 #### 1. Creating a project
 
@@ -53,7 +61,7 @@ Create an html file (index.html) -
 </html>
 ```
 
-Git it - (Untracked files)
+#### Git it 
 
 `git status` (use whenever in doubt about the status of the files)
 
@@ -70,7 +78,9 @@ These are the three git commands that will be used **heavily**. Keep them handy!
 #### Create branches 
 
 `git branch` (List out the available branches)
+
 `git branch <branch_name>` (Why do we need branches? What happens after branching?) 
+
 `git checkout <branch_name>` (Switch branches)
 
 After 'gitting it'.. 
