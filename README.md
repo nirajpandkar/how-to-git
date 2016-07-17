@@ -91,6 +91,7 @@ After 'gitting it'..
 2. Command line -
 After committing
 `git checkout master`
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																		
 `git merge <branch_name>`
 
 And then push master to origin.
@@ -185,6 +186,3 @@ rebase
 
 #### Git Glossary
 [Glossary](https://www.kernel.org/pub/software/scm/git/docs/gitglossary.html)
-
-
-
