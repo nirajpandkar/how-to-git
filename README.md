@@ -61,6 +61,24 @@ Create an html file (index.html) -
 </html>
 ```
 
+Create an blog file (blog.html) -
+ 
+```
+<html>
+<head>
+<title>
+	Daily Blog
+</title>
+</head>
+<body>
+	<div> <h1>An awesome Monday!</h1> //title
+    	    <h4>- C-Cube</h4>   //author
+    	<p> What a contradictory title! :P </p>     //body
+    </div>
+</body>
+</html>
+```
+
 #### Git it 
 
 `git status` (use whenever in doubt about the status of the files)
