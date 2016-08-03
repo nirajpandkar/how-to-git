@@ -164,14 +164,18 @@ git checkout -b my-branch
 
 ### Perform the rebase finally
 
-git rebase howtogit/master
+`git rebase howtogit/master`
 
 You may get conflicts. 
 After resolving those conflicts **Add.Commit.**
 
 Wait.. No **Push.**?
+
 Yes. Here you first `git rebase --continue`
-And then `git push -f origin master`
+
+**Note:** If `--continue` isn't working use the `--skip` flag for now!
+
+And then `git push -f origin master` (-f for force push)
 
 Your pull request will be updated!! Successfully rebased!
 
